@@ -3961,3 +3961,18 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+.skills-icons-div{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.skills-icons-div:nth-child(1n){
+	margin: 20px;
+}
+
+.skills-icons-div > i{
+	font-size: 70px;
+}
